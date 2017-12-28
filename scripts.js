@@ -1,3 +1,7 @@
+
+/*--------------------------------
+Area of a Circle
+--------------------------------*/
 // Total area function
 function areaOfCircle() {
 
