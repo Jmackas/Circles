@@ -5,20 +5,20 @@ Circumference of a Circle
 function circumference_radiusOfCircle() {
     // Variable declarations
     var radius;
-    var totalCircumference;
+    var circumference;
 
     // Retrieve user input
-    radius = document.getElementById("area_inputRadius").value;
-    totalArea = document.getElementById("area_inputTotalArea").value;
+    radius = document.getElementById("circumference_inputRadius").value;
+    circumference = document.getElementById("circumference_inputCircumference").value;
 
     // Algorithm
-    totalArea = Math.PI * Math.pow(radius, 2);
+    circumference = 2 * Math.PI * radius;
 
     // Round the answer to two decimal places
-    totalArea = totalArea.toFixed(2);
+    circumference = circumference.toFixed(2);
 
     // Output to user
-    document.getElementById("area_inputTotalArea").value = totalArea;
+    document.getElementById("circumference_inputCircumference").value = circumference;
 }
 
 // Total circumference function
