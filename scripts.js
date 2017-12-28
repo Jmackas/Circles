@@ -3,6 +3,8 @@
 
 // Area of circle function
 function areaOfCircle() {
+    // Change colour to lightgray
+    document.getElementById("outputCircleArea").style.color = "black";
 
     // Variable declarations
     var radius;
