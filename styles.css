@@ -109,8 +109,3 @@ input:focus {
     outline: none;
     border-bottom: 2px solid rgb(0, 191, 255);
 }
-
-.answerOutput {
-    border-bottom: 1px solid gray;
-    color: gray;
-}

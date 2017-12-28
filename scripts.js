@@ -1,24 +1,28 @@
 
-
-
 // Area of circle function
 function areaOfCircle() {
-    // Change colour to lightgray
-    document.getElementById("outputCircleArea").style.color = "black";
-
     // Variable declarations
     var radius;
-    var finalAnswer;
+    var totalArea;
 
     // Retrieve user input
     radius = document.getElementById("inputRadius").value;
+    totalArea = document.getElementById("inputTotalArea").value;
 
     // Algorithm
-    finalAnswer = Math.PI * Math.pow(radius, 2);
+    if (!(radius == "")) {
+        totalArea == "";
+        totalArea = Math.PI * Math.pow(radius, 2);
+        
+        // Round the answer to two decimal places
+        totalArea = totalArea.toFixed(2);
 
-    // Round the answer to two decimal places
-    finalAnswer = finalAnswer.toFixed(2);
+        // Output to user
+        document.getElementById("inputTotalArea").value = totalArea;
+    }
 
-    // Output to user
-    document.getElementById("outputCircleArea").innerHTML = finalAnswer;
+    else {
+        radius == "";
+        radius = Math.PI * Math.pow(radius, 2);
+    }
 }
