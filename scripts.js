@@ -2,7 +2,7 @@
 Circumference of a Circle
 --------------------------------*/
 // Radius function
-function circumference_radiusOfCircle() {
+function circumference_circumferenceOfCircle() {
     // Variable declarations
     var radius;
     var circumference;
@@ -22,7 +22,7 @@ function circumference_radiusOfCircle() {
 }
 
 // Total circumference function
-function circumference_circumferenceOfCircle() {
+function circumference_radiusOfCircle() {
 
 }
 
