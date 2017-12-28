@@ -1,9 +1,22 @@
+/*
+
+https://jmackas.github.io/circle_madness/ 
+
+
+
+
+*/
+
+
 
 /*-------------------------------------------------
 Universal Elements
 -------------------------------------------------*/
+/* 'Tinos' font import */
+@import url('https://fonts.googleapis.com/css?family=Tinos');
+
 body {
-    font-family: calibri;
+    font-family: Tinos, Cambria;
 }
 
 h1 {
