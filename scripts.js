@@ -10,8 +10,8 @@ function areaOfCircle() {
     totalArea = document.getElementById("inputTotalArea").value;
 
     // Algorithm
-    if (!(radius == "")) {
-        totalArea == "";
+    if ((radius === "")) {
+        totalArea === "";
         totalArea = Math.PI * Math.pow(radius, 2);
         
         // Round the answer to two decimal places
@@ -21,8 +21,14 @@ function areaOfCircle() {
         document.getElementById("inputTotalArea").value = totalArea;
     }
 
-    else {
-        radius == "";
-        radius = Math.PI * Math.pow(radius, 2);
+    if ((totalArea === "")) {
+        radius === "";
+        radius = Math.sqrt(totalArea / Math.PI);
+
+        // Round the answer to two decimal places
+        radius = radius.toFixed(2);
+
+        // Output to user
+        document.getElementById("inputRadius").value = radius;
     }
 }
