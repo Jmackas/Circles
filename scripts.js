@@ -23,7 +23,23 @@ function circumference_circumferenceOfCircle() {
 
 // Total circumference function
 function circumference_radiusOfCircle() {
+    // Variable declarations
+    var radius;
+    var circumference;
 
+    // Retrieve user input
+    radius = document.getElementById("circumference_inputRadius").value;
+    circumference = document.getElementById("circumference_inputCircumference").value;
+
+    // Algorithm
+    // Why is it returning NaN??
+    radius = circumference / 2 * Math.Pi;
+
+    // Round the answer to two decimal places
+    radius = radius.toFixed(2);
+
+    // Output to user
+    document.getElementById("circumference_inputRadius").value = radius;
 }
 
 
