@@ -82,7 +82,7 @@ sup {
     padding: 0 10px;
 }
 
-.areaOfCircle {
+.areaOfCircle, .circumferenceCircle {
     display: flex;
     padding: 1% 0;
     align-items: center;
@@ -100,7 +100,7 @@ input {
     border-bottom: 2px solid rgb(185, 185, 185);
     border-left: none;
     transition: .4s;
-    width: 140px;
+    width: 188px;
     text-align: center;
 }
 
