@@ -14,6 +14,9 @@ function areaOfCircle() {
     // Algorithm
     finalAnswer = Math.PI * Math.pow(radius, 2);
 
+    // Round the answer to two decimal places
+    finalAnswer = finalAnswer.toFixed(2);
+
     // Output to user
     document.getElementById("outputCircleArea").innerHTML = finalAnswer;
 }
