@@ -12,5 +12,6 @@ function areaOfCircle() {
     // Algorithm
     finalAnswer = Math.PI * radius;
 
+    // Output to user
     document.getElementById("outputCircleArea").innerHTML = finalAnswer;
 }

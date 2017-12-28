@@ -13,10 +13,8 @@ Notes:
 Universal Elements
 -------------------------------------------------*/
 /* Font import */
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
-
 body {
-    font-family: 'Amatic SC', cursive;
+    font-family: cambria;
     margin: 0;
     padding: 0;
     font-weight: normal;
@@ -34,6 +32,12 @@ h2 {
     margin: 0;
     font-size: 500%;
     font-weight: normal;
+    padding: 0;
+}
+
+h3 {
+    font-size: 238%;
+    margin: 0;
     padding: 0;
 }
 
@@ -64,12 +68,25 @@ Table of Contents
     background: linear-gradient(khaki, papayawhip);
 }
 
+.tableOfContents span {
+    font-size: 200%;
+    font-weight: normal;
+}
+
+.operatorSymbol {
+    margin: 0 40px;
+}
+
+.areaOfCircle {
+    display: flex;
+    align-items: center;
+}
+
 /* Input fields */
 input {
     padding: 10px 20px;
-    font-family: 'Amatic SC', cursive;
-    font-weight: bold;
-    font-size: 150%;
+    font-family: cambria;
+    font-size: 200%;
     border-radius: 5px;
     background: rgba(0,0,0,0);
     border-top: none;
@@ -77,10 +94,16 @@ input {
     border-bottom: 2px solid rgb(185, 185, 185);
     border-left: none;
     transition: .4s;
+    width: 140px;
+    text-align: center;
 }
 
 /* Input field focus */
 input:focus {
     outline: none;
     border-bottom: 2px solid rgb(0, 191, 255);
+}
+
+.answerOutput {
+    border-bottom: 1px solid black;
 }
