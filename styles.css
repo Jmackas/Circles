@@ -48,6 +48,7 @@ Table of Contents
 -------------------------------------------------*/
 .tableOfContents {
     background: linear-gradient(khaki, papayawhip);
+    height: 100vh;
 }
 
 .tableOfContents span {
