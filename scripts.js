@@ -33,7 +33,7 @@ function circumference_radiusOfCircle() {
 
     // Algorithm
     // Why is it returning NaN??
-    radius = circumference / (2 * Math.Pi);
+    radius = circumference / (2 * Math.PI);
 
     // Round the answer to two decimal places
     radius = radius.toFixed(2);
