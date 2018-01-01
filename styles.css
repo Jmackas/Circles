@@ -39,8 +39,7 @@ hr {
     outline: 1px dashed #aeaeae40;
 }
 
-/* Sections collated */
-header, .tableOfContents {
+.tableOfContents {
     padding: 2%;
 }
 
@@ -48,7 +47,6 @@ header, .tableOfContents {
 Table of Contents
 -------------------------------------------------*/
 .tableOfContents {
-    height: 100vh;
     background: linear-gradient(khaki, papayawhip);
 }
 
