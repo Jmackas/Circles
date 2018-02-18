@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+        <title>Circles</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+        <div class="tableOfContents">
+                <h2>Formulas</h2>
+
+                <hr>
+
+                <!-- Circumference of a circle -->
+                <h3>Circumference of a Circle</h3>
+                <div class="circumferenceCircle">
+
+                        <span>2</span>
+
+                        <span>π</span>
+
+                        <span class="operatorSymbol">*</span>
+
+                        <input type="text" id="circumference_inputRadius" onkeyup="circumference_circumferenceOfCircle()" placeholder="Radius" />
+
+                        <span class="operatorSymbol">=</span>
+
+                        <input type="text" id="circumference_inputCircumference" onkeyup="circumference_radiusOfCircle()" placeholder="Circumference"
+                        />
+
+
+                </div>
+
+
+                <hr>
+
+                <!-- Area of a circle -->
+                <h3>Area of a Circle</h3>
+                <div class="areaOfCircle">
+
+
+                        <input type="text" id="area_inputRadius" onkeyup="area_areaOfCircle()" placeholder="Radius" />
+
+                        <sup>2</sup>
+
+                        <span class="operatorSymbol">*</span>
+
+                        <span>π</span>
+
+                        <span class="operatorSymbol">=</span>
+
+                        <input type="text" class="inputTotalArea" id="area_inputTotalArea" placeholder="Area" onkeyup="area_radiusOfCircle()" />
+                </div>
+
+                <hr>
+        </div>
+
+
+
+
+
+
+        <script src="scripts.js"></script>
+</body>
+
+</html>
